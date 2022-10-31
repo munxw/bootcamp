@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+.ava {
+  display: flex;
+  align-items: center;
+}
+.ava img {
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+}
+.ava span {
+  font-weight: 700;
+}
+.midle img {
+  width: 100%;
+  border-radius: 16px;
+}
+/* .dad {
+  background-color: red;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.kids {
+  margin: 50px 50px 0 50px;
+  background-color: blue;
+  width: 100px;
+  height: 300px;
+  text-align: center;
+} */

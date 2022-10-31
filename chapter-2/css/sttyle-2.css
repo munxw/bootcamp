@@ -1,0 +1,33 @@
+/* .block {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+}
+.block:hover {
+  background-color: black;
+  width: 250px;
+  transition: all 1s, width 0.5s;
+} */
+
+.loading {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 200px;
+  border-top: 16px solid red;
+  border-right: 16px solid blue;
+  border-bottom: 16px solid yellow;
+  border-left: 16px solid green;
+  border-radius: 50%;
+  margin-top: 300px;
+  animation: spin 4s alternate-reverse linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    margin-left: 1130px;
+  }
+}

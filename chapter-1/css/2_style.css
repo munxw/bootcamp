@@ -1,0 +1,124 @@
+/* p {
+  color: red;
+} */
+/* .d1 {
+  background: #ffffff;
+  width: 150px;
+  height: 150px;
+  color: white;
+  margin-left: 550px;
+  margin-top: 100px;
+  border: 85px solid #e34212;
+  border-radius: 50%;
+}
+.d1 div {
+  background: black;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  margin-left: -49px;
+  margin-top: -49px;
+  background-color: transparent;
+  border: 10px dotted rgb(218, 92, 8);
+}
+.d1 div::before {
+  background-color: linear-gradient#000000;
+} */
+body {
+  padding: 0;
+  font-family: "Georgia", serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  background: #ffffff
+    url("https://image.freepik.com/free-photo/_23-2147833257.jpg") no-repeat 50%
+    0;
+}
+
+h1 {
+  width: 260px;
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  margin-top: 70px;
+}
+
+h2 {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 12px;
+}
+
+.site-header {
+  margin-bottom: 130px;
+}
+
+.skills-item {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  color: #999999;
+  border-left: 10px solid #c4c4c4;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-simple {
+  padding-top: 60px;
+  background: url("https://segol.ru/wp-content/uploads/2018/03/startup-businessman-rocket.png");
+  background-size: 50px;
+}
+
+.feature-growth {
+  padding-top: 60px;
+  background-image: url("https://png.pngtree.com/element_our/png_detail/20180918/career-png_102196.jpg");
+  background-size: 50px;
+}
+
+.feature-wide {
+  padding-top: 60px;
+  background-image: url("https://image.freepik.com/free-vector/businessman-with-idea_7450-121.jpg");
+  background-size: 40px;
+}
+
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
+.standart {
+  border-color: #ffc5b3;
+  color: #666666;
+}
+.vip {
+  border-color: #ff5a26;
+  color: #000000;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
